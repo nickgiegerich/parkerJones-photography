@@ -1,74 +1,93 @@
 body {
-  margin:0;
+  margin: 0;
 }
+
 .fixed-bg1 {
-    background-image: url("images/Girl-White-Shirt.jpg");
-    min-height: 500px;
-    height: 1024;
-    width: 768;
-    background-attachment: fixed;
-    background-position: center 41%;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("images/Girl-White-Shirt.jpg");
+  min-height: 500px;
+  height: 1024;
+  width: 768;
+  background-attachment: fixed;
+  background-position: center 41%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.fixed-bg2 { 
-    background-image: url("images/Family1.jpg");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.fixed-bg2 {
+  background-image: url("images/Flower-Ball.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.fixed-bg3{ 
-    background-image: url("images/Lexi.JPG");
-    max-height: 500px;
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center 24%;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.fixed-bg3 {
+  background-image: url("images/Lexi.JPG");
+  max-height: 500px;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center 24%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.fixed-bg4{ 
-  background-image: url("images/Girl-White-Shirt2.jpg");
-    max-height: 500px;
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center 24%;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.fixed-bg4 {
+  background-image: url("images/Ashley.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.fixed-bg5 {
+  background-image: url("images/Wedding-Ring.jpg");
+  max-height: 500px;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center 24%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-  }
-  li {
-    float: left;
-  }
-  li a {
-    display: block;
-    color: grey;
-    text-align: center;
-    padding: 14px 191px;
-    text-decoration: none;
-  }
-  li a:hover {
-    background-color: #111;
-  }
-  .text-center { 
-    display: flex;
-    text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 191px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(17, 17, 17);
+}
+
+.text-center {
+  display: flex;
+  text-align: center;
 }
 
 /* BELOW IS CSS FOR GALLERY*/
 
 
-.row > .column {
+.row>.column {
   padding: 0 8px;
 }
 
@@ -120,7 +139,7 @@ ul {
 
 .close:hover,
 .close:focus {
-  color: #999;
+  color: rgb(206, 65, 65);
   text-decoration: none;
   cursor: pointer;
 }

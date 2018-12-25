@@ -1,118 +1,229 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Text+Me+One" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="../style.css" />
-    <script src="../js/main.js"></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Text+Me+One" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="../style.css" />
+  <script src="../js/main.js"></script>
 </head>
+
 <body>
-    <!--Main header of most pages begins here-->
-    <div>
-            <h1 style="font-family: 'Text Me One', sans-serif; font-size: 75px; text-align: center">
-                    Parker Jones Photography
-                </h1>
-        
-            <!--The NavBar; most of the layout comes from CSS-->
-            </div>
-        
-             <ul>
-               
-                     <li><a href="../index.html">Home</a></li>
-                     <li><a href="../about.html">About</a></li>
-                     <li><a href="gallery.html">Gallery</a></li>
-                
-             </ul>
-        
-             <div style="height:55px;background-color:white;">
-             </div>
-             <!-- End of stock header section -->
+  <!--Main header of most pages begins here-->
+  <div>
+    <h1 style="font-family: 'Text Me One', sans-serif; font-size: 75px; text-align: center">
+      Parker Jones Photography
+    </h1>
 
-    <!-- Images used to open the lightbox -->
-<div class="row">
-         <div class="column">
-             <img src="../images/Lexi.JPG" height="320" width="240" onclick="openModal();currentSlide(1)" class="hover-shadow">
-         </div>
+    <!--The NavBar; most of the layout comes from CSS-->
+  </div>
 
-         <div class="column">
-             <img src="../images/Girl-White-Shirt1.jpg" height="320" width="240"  onclick="openModal();currentSlide(2)" class="hover-shadow">
-         </div>
+  <ul>
 
-         <div class="column">
-             <img src="../images/Family.jpg" height="320" width="240" onclick="openModal();currentSlide(3)" class="hover-shadow">
-         </div>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../about.html">About</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
 
-        <div class="column">
-            <img src="../images/Boy-Walking1.jpg" height="320" width="240" onclick="openModal();currentSlide(4)" class="hover-shadow">
-        </div>
+  </ul>
 
-      </div>
-      
-      <!-- The Modal/Lightbox -->
-      <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
-        <div class="modal-content">
+  <div style="height:55px;background-color:white;">
+  </div>
+  <!-- End of stock header section -->
 
-            <div class="mySlides">
-              <div class="numbertext">1 / 4</div>
-              <img src="../images/Lexi.JPG" style="width:100%">
-            </div>
-      
-            <div class="mySlides">
-              <div class="numbertext">2 / 4</div>
-              <img src="../images/Girl-White-Shirt1.jpg" style="width:100%">
-            </div>
+  <!-- Images used to open the lightbox -->
+  <div class="row">
+    <div class="column">
+      <img src="../images/Lexi.JPG" height="320" width="240" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    </div>
 
-            <div class="mySlides">
-              <div class="numbertext">3 / 4</div>
-              <img src="../images/Family.jpg" style="width:100%">
-            </div>
-            
-            <div class="mySlides">
-              <div class="numbertext">4 / 4</div>
-              <img src="../images/Boy-Walking1.jpg" style="width:100%">
-            </div>
-      
-      
-      
-      
-          <!-- Next/previous controls -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      
-          <!-- Caption text -->
-          <div class="caption-container">
-            <p id="caption"></p>
-          </div>
-      
-          <!-- Thumbnail image controls -->
-          <div class="column">
-            <img class="demo" src="../images/Lexi.JPG" height="320" width="240" onclick="currentSlide(1)" alt="Lexi">
-          </div>
+    <div class="column">
+      <img src="../images/Girl-White-Shirt1.jpg" height="320" width="240" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    </div>
 
-          <div class="column">
-            <img class="demo" src="../images/Girl-White-Shirt1.jpg" height="320" width="240" onclick="currentSlide(2)" alt="Girl">
-          </div>
+    <div class="column">
+      <img src="../images/Family.jpg" height="320" width="240" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    </div>
 
-          <div class="column">
-            <img class="demo" src="../images/Family.jpg" height="320" width="240" onclick="currentSlide(3)" alt="Family">
-          </div>
+    <div class="column">
+      <img src="../images/Boy-Walking1.jpg" height="320" width="240" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    </div>
 
-          <div class="column">
-            <img class="demo" src="../images/Boy-Walking1.jpg" height="320" width="240" onclick="currentSlide(4)" alt="Senior Photo">
-          </div>
-      
-      
-      
-        </div>
+    <!--BEGIN NEW PHOTOS HERE -->
+
+    <div class="column">
+      <img src="../images/Ashley.jpg" height="320" width="240" onclick="openModal();currentSlide(5)" class="hover-shadow">
+    </div>
+
+    <div class="column">
+      <img src="../images/Flower-Ball.jpg" height="320" width="240" onclick="openModal();currentSlide(6)" class="hover-shadow">
+    </div>
+
+    <div class="column">
+      <img src="../images/Lexi-Jones.jpg" height="320" width="240" onclick="openModal();currentSlide(7)" class="hover-shadow">
+    </div>
+
+    <div class="column">
+      <img src="../images/Prom.jpg" height="320" width="240" onclick="openModal();currentSlide(8)" class="hover-shadow">
+    </div>
+
+    <div class="column">
+      <img src="../images/Red-Hair.jpg" height="320" width="240" onclick="openModal();currentSlide(9)" class="hover-shadow">
+    </div>
+
+    <div class="column">
+      <img src="../images/Senior-Photo.jpg" height="320" width="240" onclick="openModal();currentSlide(10)" class="hover-shadow">
+    </div>
+
+    <div class="column">
+      <img src="../images/Wedding-Dad2.jpg" height="320" width="240" onclick="openModal();currentSlide(11)" class="hover-shadow">
+    </div>
+
+    <div class="column">
+      <img src="../images/Wedding-Walking.jpg" height="320" width="240" onclick="openModal();currentSlide(12)" class="hover-shadow">
+    </div>
+
+  </div>
+
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="../images/Lexi.JPG" style="width:100%">
       </div>
 
-      <div style="height:65px;background-color:white;"></div>
-      <div style="height:65px;background-color:black;"></div>
-      <footer style="color:gray; background-color: black; text-align: center">&copy;. Copyright 2018 Design by Nick G Media</footer>
-      <div style="height:65px;background-color:black;"></div>
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="../images/Girl-White-Shirt1.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="../images/Family.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="../images/Boy-Walking1.jpg" style="width:100%">
+      </div>
+
+      <!-- BEGIN NEW PHOTOS HERE -->
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 11</div>
+        <img src="../images/Ashley.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 11</div>
+        <img src="../images/Flower-Ball.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">7 / 11</div>
+        <img src="../images/Lexi-Jones.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">8 / 11</div>
+        <img src="../images/Prom.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">9 / 11</div>
+        <img src="../images/Red-Hair.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">10 / 11</div>
+        <img src="../images/Senior-Photo.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">11 / 11</div>
+        <img src="../images/Wedding-Dad2.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">11 / 12</div>
+        <img src="../images/Wedding-Walking.jpg" style="width:100%">
+      </div>
+
+    </div>
+
+
+
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="../images/Lexi.JPG" height="320" width="240" onclick="currentSlide(1)" alt="Lexi">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="../images/Girl-White-Shirt1.jpg" height="320" width="240" onclick="currentSlide(2)" alt="Girl">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="../images/Family.jpg" height="320" width="240" onclick="currentSlide(3)" alt="Family">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="../images/Boy-Walking1.jpg" height="320" width="240" onclick="currentSlide(4)" alt="Senior Photo">
+    </div>
+
+    <!-- BEGIN NEW PHOTOS HERE -->
+
+    <div class="column">
+      <img class="demo" src="../images/Ashley.jpg" height="320" width="240" onclick="currentSlide(5)" alt="Senior Photo">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="../images/Flower-Ball.jpg" height="320" width="240" onclick="currentSlide(6)" alt="Senior Photo">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="../images/Lexi-Jones.jpg" height="320" width="240" onclick="currentSlide(7)" alt="Senior Photo">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="../images/Prom.jpg" height="320" width="240" onclick="currentSlide(8)" alt="Senior Photo">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="../images/Red-Hair.jpg" height="320" width="240" onclick="currentSlide(9)" alt="Senior Photo">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="../images/Senior-Photo.jpg" height="320" width="240" onclick="currentSlide(10)" alt="Senior Photo">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="../images/Wedding-Dad2.jpg" height="320" width="240" onclick="currentSlide(11)" alt="Senior Photo">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="../images/Wedding-Walking.jpg" height="320" width="240" onclick="currentSlide(12)" alt="Senior Photo">
+    </div>
+  </div>
+
+  <div style="height:65px;background-color:white;"></div>
+  <div style="height:65px;background-color:black;"></div>
+  <footer style="color:gray; background-color: black; text-align: center">&copy;. Copyright 2018 Design by Nick G Media</footer>
+  <div style="height:65px;background-color:black;"></div>
 </body>
+
 </html>
